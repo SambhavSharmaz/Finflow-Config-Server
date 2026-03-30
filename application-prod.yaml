@@ -1,0 +1,22 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_URL:http://localhost:9090/eureka/}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  tracing:
+    sampling:
+      probability: 0.1 # Sample 10% of requests in prod
+
+logging:
+  level:
+    root: WARN
+    com.capgemini: INFO
+    org.hibernate.SQL: ERROR
+
+finflow:
+  environment: "production"

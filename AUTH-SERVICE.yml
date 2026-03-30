@@ -14,3 +14,21 @@ spring:
       ddl-auto: update
     open-in-view: false
     show-sql: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+finflow:
+  message: "Hello World from Auth Service! (DEV Profile)"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+finflow:
+  message: "Hello World from Auth Service! (PROD Profile)"

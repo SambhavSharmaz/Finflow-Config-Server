@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway
+
+springdoc:
+  swagger-ui:
+    urls:
+      - name: Eureka Server
+        url: /gateway/eureka/v3/api-docs
+      - name: Auth Service
+        url: /gateway/auth/v3/api-docs
+      - name: Application Service
+        url: /gateway/applications/v3/api-docs
+      - name: Document Service
+        url: /gateway/documents/v3/api-docs
+      - name: Admin Service
+        url: /gateway/admin/v3/api-docs

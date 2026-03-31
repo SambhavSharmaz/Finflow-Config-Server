@@ -1,0 +1,5 @@
+finflow:
+  message: "API Gateway - Dev Profile"
+
+server:
+  port: 8080

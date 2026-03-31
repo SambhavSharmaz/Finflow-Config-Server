@@ -1,0 +1,6 @@
+finflow:
+  message: "Application Service - Dev Profile"
+
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3037/application_db_dev}

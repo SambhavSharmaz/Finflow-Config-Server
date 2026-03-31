@@ -1,0 +1,6 @@
+finflow:
+  message: "Application Service - Prod Profile"
+
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://prod-db:3306/application_db_prod}

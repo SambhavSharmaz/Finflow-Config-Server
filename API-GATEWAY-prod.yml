@@ -1,0 +1,5 @@
+finflow:
+  message: "API Gateway - Prod Profile"
+
+server:
+  port: 8080

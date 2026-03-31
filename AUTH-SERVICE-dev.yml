@@ -1,0 +1,6 @@
+finflow:
+  message: "Auth Service - Dev Profile"
+
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3037/auth_db_dev}

@@ -1,0 +1,6 @@
+finflow:
+  message: "Document Service - Dev Profile"
+
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3037/document_db_dev}

@@ -3,4 +3,4 @@ finflow:
 
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3037/application_db_dev}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3037/application_db}
